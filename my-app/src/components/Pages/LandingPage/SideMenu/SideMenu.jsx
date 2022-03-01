@@ -22,11 +22,20 @@ const style = {
   boxSizing: "border-box",
   paddingTop: "12px",
   paddingLeft: "30px",
+  '@media screen and (max-width: 1020px)': {
+    width: "100%"
+  },
 };
+
+// if(document.window.innerWidth<1020){
+//   style.width="100%"
+// }
 
 export default function BasicModal() {
 
   const {open,setOpen} = React.useContext(LandingPageContext)
+
+  
 
  
   const handleClose = () => setOpen(false);
