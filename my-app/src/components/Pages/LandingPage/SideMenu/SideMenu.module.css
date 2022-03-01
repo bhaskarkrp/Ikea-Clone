@@ -1,0 +1,12 @@
+.anchorTag{
+    color:white;
+    text-decoration: none;
+    font-size: 1.20rem;
+    line-height: 2;
+    font-family: sans-serif;
+   
+}
+
+.anchorTag:hover{
+    color: rgb(181, 181, 243)
+}
