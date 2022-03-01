@@ -42,7 +42,7 @@ export default function BasicModal() {
       >
         <Box sx={style}>
           <div>
-            <CloseIcon style={{ color: "white", fontSize: "40px" }} />
+            <CloseIcon onClick={handleClose} style={{ color: "white", fontSize: "40px", cursor:"pointer", marginBottom:"-3px" }} />
             <Svg />
           </div>
 
