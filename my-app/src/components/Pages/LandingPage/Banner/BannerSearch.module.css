@@ -1,0 +1,107 @@
+.Main {
+  height: 500px;
+ 
+  position: relative;
+  bottom: 150px;
+  
+}
+
+.BannerSearchContainer {
+  
+  padding-top: 220px;
+  box-sizing: border-box;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  transition: padding-top 1s;
+  overflow: hidden;
+
+  position: relative;
+  bottom: 10px;
+  
+}
+
+.BannerSearchContainer2 {
+ 
+  padding-top: 0px;
+  box-sizing: border-box;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  transition: padding-top 0.5s;
+  overflow: hidden;
+ 
+  position: relative;
+  bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.BannerSearch {
+    
+  background-color: rgb(255, 240, 148);
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  height: 200px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  
+  position: relative;
+  top: 150px;
+ 
+}
+
+.BannerSearch input {
+  width: 83%;
+  height: 86%;
+  border: 0px;
+  font-size: 15px;
+  padding-left: 8px;
+  outline: none;
+}
+.InputField {
+  width: 93%;
+  height: 48px;
+  border-radius: 8px;
+
+  background-color: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.GoShopping{
+  font-weight: bold;
+  font-size: 33px;
+  font-family: "Myriad pro Semibold"  "Noto IKEA", "Noto Sans", Roboto, "Open Sans", system-ui, sans-serif;
+  letter-spacing:-0.96px;
+  line-height:40px;
+  font-style: normal;
+  text-transform: none;
+ 
+  }
+  
+  .GoShoppingContainer{
+      display: flex;
+      justify-content: start;
+      box-sizing: border-box;
+      padding-left: 60px;
+      margin-bottom: 80px;
+      position: relative;
+      top:40px
+  
+  }

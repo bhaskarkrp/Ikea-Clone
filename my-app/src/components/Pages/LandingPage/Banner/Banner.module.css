@@ -1,0 +1,64 @@
+.Banner{
+    display: flex;
+    justify-content: center;
+    column-gap: 1.3%;
+    background-color: rgb(240,237,232);
+   
+}
+
+.BannerLeftPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 599px;
+    width: 61.3%;
+    /* object-fit: cover;
+    border: 1px solid black; */
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(https://www.ikea.com/global/en/images/PH_178659_optimized_a457170442.jpg?f=g);
+    background-position: -76px ;
+}
+
+.BannerRightPart{
+    height: 599px;
+    width: 32.4%;
+    background-color: rgb(255,219,0);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 161px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.ArrowIcon{
+    position: relative;
+    transition-duration: 500ms;
+    left: 0px;
+    transition-property: left;
+}
+
+.BannerRightPart:hover .ArrowIcon{
+    left: 10px;
+}
+
+.TransitionButton{
+    margin-top: -160px;
+    text-align: left;
+    background-color:rgb(255,219,0);
+    height: 5.8rem;
+    box-sizing: border-box;
+    padding-left: 40px;
+    border-top:1px solid rgba(0, 0, 0, 0.349);
+    display: flex;
+    align-items: center;
+   
+}
+

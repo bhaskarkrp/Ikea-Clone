@@ -9,6 +9,10 @@ import CloseIcon from "@material-ui/icons/Close";
 import styles from './SideMenu.module.css'
 import LandingPageContext from "../ContextLandingPage/ContextLandingPage";
 
+
+// Use tRANSITION COMPONENT
+
+
 const style = {
   backgroundColor: "rgb(0,88,163)",
   width: "36.26%",
