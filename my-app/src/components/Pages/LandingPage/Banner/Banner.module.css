@@ -38,19 +38,19 @@
 
 
 
-.ArrowIcon{
+.TransitionArrow{
     position: relative;
     transition-duration: 500ms;
     left: 0px;
     transition-property: left;
 }
 
-.BannerRightPart:hover .ArrowIcon{
+.BannerRightPart:hover .TransitionArrow{
     left: 10px;
 }
 
 .GoshoppingContainer{
-    
+    display: flex;
     font-size: 30px;
     font-weight: 600;
     text-align: left;
@@ -58,6 +58,8 @@
     margin-bottom: 200px;
     width: 100%;
 }
+
+
 
 
 @media only screen and (max-width: 1020px) {

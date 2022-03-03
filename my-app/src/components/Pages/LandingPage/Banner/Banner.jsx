@@ -13,10 +13,15 @@ export const Banner = () => {
       </div>
       <div className={styles.BannerRightPart}>
         <div className={styles.GoshoppingContainer}>
-          Go Shopping{" "}
+        <div>
+        Go Shopping
+        </div>
+          <div className={styles.TransitionArrow}>
           <ArrowForwardIcon
-            style={{ fontSize: "35", position: "relative", top: "5px" }}
-          />{" "}
+            style={{ fontSize: "35"}}
+          />
+          </div>
+          
         </div>
         <BannerSearch />
       </div>

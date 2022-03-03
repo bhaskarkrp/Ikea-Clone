@@ -1,0 +1,48 @@
+.CardContainer{
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-top: 0px;
+    display: flex;
+    column-gap: 1.3%;
+    justify-content: center;
+    background-color: rgb(240,237,232);
+}
+.Card img{
+    height: 70%;
+    object-fit: cover;
+}
+
+.Card {
+   
+   height: 400px;
+   width: 22.9%;
+   background-position: -163px -28px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+}
+.CardContent{
+    background-color: white;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    font-family: sans-serif;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+}
+
+@media only screen and (max-width: 1020px) {
+    .CardContainer{
+       
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .Card {
+   
+        width: 100%;
+       
+     }
+}

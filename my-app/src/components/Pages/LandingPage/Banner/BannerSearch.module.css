@@ -28,6 +28,13 @@
   padding-bottom: 40px;
   padding-top: 30px;
 
+  transition:background-color 0.3s ;
+  border-radius: 5px;
+
+}
+
+.accordionHeading:hover{
+  background-color:rgb(255,240,148) ;
 }
 
 .accordionHeading p {
