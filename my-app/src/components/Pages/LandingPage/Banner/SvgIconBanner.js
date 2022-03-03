@@ -1,12 +1,13 @@
 import React from "react";
 
+
 export const SvgIconBanner = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 560 110"
       color="#ffdb00"
-      className="svelte-b9gjqs"
+      className="svelte-b9gjqs Icon"
       style={{width:"600px", marginLeft:"15px",marginBottom:"3px"}}
     >
       <title>IKEA</title>

@@ -1,34 +1,41 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import styles from "./BannerSearch.module.css";
 import SearchIcon from "@material-ui/icons/Search";
-import LandingPageContext from "../ContextLandingPage/ContextLandingPage";
-import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 
+import ExpandLessIcon from "@material-ui/icons/ExpandLess";
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 export const BannerSearch = () => {
-  const {searchTransition,setSearchTransition}= useContext(LandingPageContext)
-  
-
+  const [active, setActive] = useState(false);
   return (
-    <div className={styles.Main}>
-    
-      <div className={searchTransition ? styles.BannerSearchContainer : styles.BannerSearchContainer2 }  >
-      <div className={styles.SearchLine}>
-      <div className={styles.GoShoppingContainer}>
-          <span className={styles.GoShopping}>Go shopping</span>{" "}
-          <span className={styles.ArrowIcon}>
-            {" "}
-            <ArrowForwardIcon style={{ fontSize: "45px" }} />{" "}
-          </span>
-        </div>
-      <div className={styles.BannerSearch}>
-          <div className={styles.InputField}>
-            <SearchIcon />
-            <input placeholder="Find online store" type="search"></input>
-          </div>
-        </div>
+    <div className={styles.accordion}>
+      <div
+        className={
+          active ? styles.showaccordionContent : styles.accordionContent
+        }
+      >
+        <div className={styles.container}></div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae culpa non
+        modi voluptate alias ipsum nesciunt error debitis quos maxime ullam
+        earum quasi pariatur, nemo tenetur eos ratione quibusdam quo!
       </div>
-        
+
+      <div
+        className={styles.accordionHeading}
+        onClick={() => {
+          setActive(!active);
+        }}
+      >
+        <div style={{boxSizing:"border-box"}}>
+          
+            Online store:
+            <strong>
+              ikea.com {!active ? <ExpandLessIcon style={{position:"relative",top:"6px"}} /> : <ExpandMoreIcon style={{position:"relative",top:"6px"}}/>}
+            </strong>
+          
+        </div>
       </div>
     </div>
   );
 };
+
+export default BannerSearch;

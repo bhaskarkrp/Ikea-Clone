@@ -1,107 +1,85 @@
-.Main {
-  height: 500px;
- 
-  position: relative;
-  bottom: 150px;
-  
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-.BannerSearchContainer {
-  
-  padding-top: 220px;
-  box-sizing: border-box;
-  height: 500px;
+.container{
   width: 100%;
+  max-width: 480px;
   margin: auto;
-  transition: padding-top 1s;
-  overflow: hidden;
-
-  position: relative;
-  bottom: 10px;
-  
 }
-
-.BannerSearchContainer2 {
- 
-  padding-top: 0px;
-  box-sizing: border-box;
-  height: 500px;
+.accordion{
   width: 100%;
-  margin: auto;
-  transition: padding-top 0.5s;
-  overflow: hidden;
+  max-width: 540px;
  
-  position: relative;
-  bottom: 10px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-.BannerSearch {
-    
-  background-color: rgb(255, 240, 148);
-  width: 90%;
-  margin: auto;
-  margin-top: 20px;
-  height: 200px;
-  border-radius: 10px;
-  box-sizing: border-box;
-  padding-top: 10px;
-  
-  position: relative;
-  top: 150px;
  
-}
 
-.BannerSearch input {
-  width: 83%;
-  height: 86%;
-  border: 0px;
-  font-size: 15px;
-  padding-left: 8px;
-  outline: none;
 }
-.InputField {
-  width: 93%;
-  height: 48px;
-  border-radius: 8px;
-
-  background-color: white;
-  margin: auto;
+.accordionHeading{
+  background-color: rgb(255,219,0);
+ 
+  border-top: 1px solid rgba(0, 0, 0, 0.178);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-left: 30px;
+  
   box-sizing: border-box;
-  padding-left: 10px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+
 }
 
-.GoShopping{
-  font-weight: bold;
-  font-size: 33px;
-  font-family: "Myriad pro Semibold"  "Noto IKEA", "Noto Sans", Roboto, "Open Sans", system-ui, sans-serif;
-  letter-spacing:-0.96px;
-  line-height:40px;
-  font-style: normal;
-  text-transform: none;
+.accordionHeading p {
+letter-spacing: 1.2px;
+font-weight: 600;
+}
+
+.accordionHeading span{
+  cursor: pointer;
+}
+
+.accordionContent{
+  background-color:white;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 600ms ease-in-out;
  
-  }
+ 
+}
+
+.accordionContent p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.showaccordionContent{
+  background-color: rgb(255,219,0);
+  height: 180px;
+  opacity: 1;
+  border-top:1px solid rgba(0, 0, 0, 0.315) ;
+  overflow: hidden;
+  transition: all 400ms ease-in-out;
+}
+
+@media only screen and (max-width: 1020px) {
+
+
+  .accordionHeading{
+
+    padding-left: 32px;
+    width: 100%;
   
-  .GoShoppingContainer{
-      display: flex;
-      justify-content: start;
-      box-sizing: border-box;
-      padding-left: 60px;
-      margin-bottom: 80px;
-      position: relative;
-      top:40px
+   
   
   }
+
+  .accordion{
+    width: 100%;
+    max-width: 1000px;
+    
+ 
+   
+  
+  }
+}
