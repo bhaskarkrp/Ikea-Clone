@@ -1,0 +1,36 @@
+.container{
+    width: 53%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 60px;
+    box-sizing: border-box;
+    
+}
+
+.link{
+    font-size: 1em;
+    font-weight: 700;
+    color: #0058a3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+@media only  screen and (max-width:768px)
+{
+
+    .container{
+          width: 90%;
+     }
+     
+}
+
+
+@media only  screen and (min-width:768px) and (max-width:1020px){
+
+    .container{
+          width: 85%;
+     }
+     
+}

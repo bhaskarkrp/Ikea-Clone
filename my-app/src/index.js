@@ -7,12 +7,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LogIn } from "./components/Pages/LoginPage/LogIn";
 import { SignUp } from "./components/Pages/SignUpPage/SignUp";
 import HomeMain from "./components/Pages/HomePage/HomeMain";
+import About from './components/Pages/About/About'
+
 ReactDOM.render(
   <BrowserRouter>
    <Routes>
 {/* <Route path="/" element={<SignUp/>}/> */}
 {/* <Route path="/" element={<LogIn/>}/> */}
-<Route path="/" element={<HomeMain />}/>
+ <Route path="/" element={ <About/>}/>
    </Routes>    
   </BrowserRouter>,
   document.getElementById("root")
