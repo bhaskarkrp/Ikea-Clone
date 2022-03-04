@@ -1,0 +1,64 @@
+.home > img {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .img img {
+    width: 250px;
+    margin-bottom: 0;
+    display: block;
+    margin: 0.7rem 0.7rem 0 0.7rem; 
+
+  }
+  
+}
+   @media only screen and (min-width: 768px) and (max-width: 1019px) {
+    .img img {
+      width: 400px;
+      margin-bottom: 0;
+      display: block;
+      margin: 0.7rem 0.7rem 0 0.7rem; 
+
+    }
+   
+   }
+   @media only screen and (min-width: 1020px) and (max-width: 1200px) {
+       .home {
+         width: 100%;
+       }
+       
+      
+       .img img {
+        width: 300px;
+        margin-bottom: 0;
+        display: block;
+        margin: 0.7rem 0.7rem 0 0.7rem; 
+
+      }
+       
+      
+   }
+
+   @media only screen and (min-width: 1201px) {
+    
+    .home > img {
+        width: 89%;
+        margin: 2rem 2rem 4rem 7rem;
+
+    }
+    .tabs {
+      width: 90%;
+      margin-left: 5rem;
+    }
+   .img {
+     margin: 0.7rem 0.7rem 0 0.7rem; 
+   }
+   .img img {
+     width: 429px;
+    margin-bottom: 0;
+    display: block;
+   }
+  
+  
+}
+
