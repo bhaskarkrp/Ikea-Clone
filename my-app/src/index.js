@@ -3,13 +3,18 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { StateLandingPage } from "./components/Pages/LandingPage/ContextLandingPage/StateLandingPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { LogIn } from "./components/Pages/LoginPage/LogIn";
+import { SignUp } from "./components/Pages/SignUpPage/SignUp";
 
 ReactDOM.render(
-  <StateLandingPage>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </StateLandingPage>,
+  <BrowserRouter>
+   <Routes>
+{/* <Route path="/" element={<SignUp/>}/> */}
+{/* <Route path="/" element={<LogIn/>}/> */}
+<Route path="/" element={<App/>}/>
+   </Routes>    
+  </BrowserRouter>,
   document.getElementById("root")
 );
 

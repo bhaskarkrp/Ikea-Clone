@@ -1,0 +1,20 @@
+
+
+.leftSection{
+    
+}
+
+.PicBig img{
+    width: 170px;
+    height: 240px;
+    object-fit: cover;
+    grid-area: pic1;
+}
+
+.PicSmall img{
+    width: 170px;
+    height: 192px;
+    object-fit: cover;
+    grid-area: pic2;
+}
+
