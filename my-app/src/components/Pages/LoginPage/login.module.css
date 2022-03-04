@@ -1,0 +1,57 @@
+.MainLogInDiv{
+  display: flex;
+}
+
+
+
+.leftSection {
+  height: 100vh;
+  width: 50%;
+  background-color: rgb(0, 88, 163);
+}
+.IkeaIcon {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-top: 32px;
+}
+.LogInTitle {
+  box-sizing: border-box;
+  padding-left: 67px;
+  margin-top: 125px;
+  color: white;
+  font-family: sans-serif;
+}
+.LogInTitle h2 {
+  font-size: 30px;
+  line-height: 42.6666px;
+  font-family: sans-serif;
+  vertical-align: baseline;
+  font-weight: 700;
+  color: white;
+  line-height: 42.6666px;
+}
+
+.LogInTitle p {
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.LogInFooter p {
+  color: white;
+  font-family: sans-serif;
+  padding-left: 65px;
+  margin-top: 100px;
+  line-height: 18.8572px;
+  font-size: 10px;
+  font-weight: 400;
+}
+.LogInFooter a{
+    color: white;
+}
