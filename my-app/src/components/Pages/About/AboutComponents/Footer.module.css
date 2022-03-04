@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+
+    display: flex;
+    /* border: 1px solid black; */
+  max-width: 100%;
+   height: 610px;
+   margin-top: 0px;
+
+}
+
+.Leftcontainer{
+    box-sizing: border-box;
+   width: 74%;
+    background-color: #dfdfdf;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+   
+    /* margin-top: 30px; */
+
+}
+.first{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.first a{
+    text-decoration: none;
+    color: #111;
+
+}
+.first a:hover{
+
+    text-decoration: underline;
+    color: #111;
+}
+
+.Rightcontainer{
+
+    width: 26%;
+    background-color: #cccccc;
+    padding: 30px;
+    /* margin-top: 30px; */
+
+}
+.hedTitle1{
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: transparent; 
+}
+.hedTitle1:hover{
+
+    text-decoration: underline;
+    color: #111;
+}
+
+
+
+
+/* for right contenent */
+.Rightcontent1{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+   
+    
+
+}
+
+.hedTitle{
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: transparent; 
+}
+
+
+.righttitle{
+
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: #111;
+    font-weight: normal;
+
+}
+.righttitle:hover{
+   
+    text-decoration: underline;
+    color: #111;
+}
+
+/* Media quries */
+/* for mobile */
+@media only  screen and (max-width:768px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+       /* position: relative; */
+       /* top: 500px; */
+    }
+    .Leftcontainer{
+       display: grid;
+       grid-template-columns: 1fr;
+       width: 100%;
+    }
+    .Rightcontainer{
+
+        width: 100%;
+        background-color: #cccccc;
+        
+        /* margin-top: 30px; */
+    
+    }
+
+
+}
+
+@media only  screen and (min-width:768px) and (max-width:1020px){
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .Leftcontainer{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       width: 100%;
+    }
+
+    .Rightcontainer{
+        width: 100%;
+    }
+    .Rightcontent1{
+      
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr;
+       gap: 10px;
+        /* margin-top: 30px; */
+    
+    }
+
+} 

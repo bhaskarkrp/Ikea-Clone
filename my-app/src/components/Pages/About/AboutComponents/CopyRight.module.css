@@ -1,0 +1,77 @@
+.Fcontainer{
+
+    display: flex;
+   
+    justify-content:space-between;
+    /* align-items: center; */
+   
+    box-sizing: border-box;
+    /* padding: 24px; */
+    padding-bottom: 20px;
+    padding-top: 25px;
+   
+    background-color: #111;
+    /* position:absolute;
+    bottom: 0px;
+     */
+}
+ .Fleft{
+   
+    background-color: #111;
+    color: #ccc;
+     padding-left: 20px;
+   
+}
+.Fleft p{
+    font-size: 13px;
+}
+
+.Fright{
+    background-color: #111;
+ display: flex;
+ gap: 10px;
+ font-size: 13px;
+ padding-right: 20px;
+ 
+ padding-left: 10%;
+ 
+}
+.Fright a{
+   font-size: 13px;
+    color: #ccc;
+}
+.Fright a:hover{
+    color: white;
+
+} 
+
+
+@media  only  screen and (max-width:768px) {
+
+
+    .Fcontainer{
+        position: relative;
+        top: 790px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .Fright{
+      
+        padding-left: 20px;
+       margin-bottom: 15px;
+ 
+    }
+    
+}
+
+@media  only  screen and (min-width:768px) and (max-width:1020px) {
+
+
+    .Fcontainer{
+        position: relative;
+        top: 90px;
+
+    }
+    
+}
