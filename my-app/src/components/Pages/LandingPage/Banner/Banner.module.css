@@ -1,0 +1,97 @@
+.Banner{
+    display: flex;
+    justify-content: center;
+    column-gap: 1.3%;
+    background-color: rgb(240,237,232);
+   
+}
+
+.BannerLeftPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 599px;
+    width: 61.3%;
+   
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(https://www.ikea.com/global/en/images/PH_178659_optimized_a457170442.jpg?f=g);
+    background-position: -76px ;
+}
+
+.BannerRightPart{
+    height: 599px;
+    width: 32.4%;
+    background-color: rgb(255,219,0);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end
+}
+
+
+
+
+
+
+.TransitionArrow{
+    position: relative;
+    transition-duration: 500ms;
+    left: 0px;
+    transition-property: left;
+}
+
+.BannerRightPart:hover .TransitionArrow{
+    left: 10px;
+}
+
+.GoshoppingContainer{
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 200px;
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 1020px) {
+    .Banner{
+       
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 1rem;
+    }
+   
+    .BannerLeftPart{
+        width: 100%;
+        height: 360px;
+        background-position: -5px ;
+    }
+    .BannerRightPart{
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+    }
+    .GoshoppingContainer{
+      margin-bottom: 0px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+  }
+
+  .BannerTitle{
+   
+     display: flex;
+     width: 70%;
+  }
+  }
+
+  
