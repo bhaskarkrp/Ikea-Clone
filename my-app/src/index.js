@@ -2,23 +2,25 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import { StateLandingPage } from "./components/Pages/LandingPage/ContextLandingPage/StateLandingPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LogIn } from "./components/Pages/LoginPage/LogIn";
 import { SignUp } from "./components/Pages/SignUpPage/SignUp";
 import HomeMain from "./components/Pages/HomePage/HomeMain";
 import About from "./components/Pages/About/About";
+import ProductRoutings from "./ProductRoutings";
+import { AllProducts } from "./Components/ProductAll/AllProducts";
+import { CompareProducts } from "./Components/ProductAll/CompareProducts";
+import { SingleProductDetail } from "./Components/ProductAll/ProductDetailsPage/SingleProductDetail";
+import { Cartpage } from "./Components/ProductAll/addToCartPage/Cartpage";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Routes>
-    <Route path="/" element={<App />} />
-      <Route path="signup" element={<SignUp />} />
-      <Route path="login" element={<LogIn />} />
-      <Route path="about" element={<About />} />
-      <Route path="Home" element={<HomeMain />} />
-    </Routes>
-  </BrowserRouter>,
+  <React.StrictMode>
+    <BrowserRouter>
+      {/* <ContextProvider> */}
+      <App />
+      {/* </ContextProvider> */}
+    </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById("root")
 );
 

@@ -1,0 +1,44 @@
+.grid_card {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 10% 20% 30% 20%;
+  justify-content: space-between;
+  border-top: 1px solid #484848;
+  padding-top: 1rem;
+}
+
+.image_cart {
+  width: 80%;
+  height: 80%;
+}
+
+.quantity {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto 0;
+}
+.flex_card {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+}
+
+.title {
+  border: 1px solid black;
+  padding: 0.3rem 1.25rem;
+}
+
+.size {
+  color: #484848;
+  font-size: 0.8rem;
+  margin-top: -1rem;
+}
+.remove {
+  float: right;
+  display: flex;
+  place-items: center;
+  color: #484848;
+  font-weight: bold;
+  cursor: pointer;
+}

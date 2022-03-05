@@ -1,0 +1,49 @@
+{
+  "WFH": [
+    {
+      "id": "1",
+      "title": "MICKE",
+      "size": "Desk142x50 cm (55 7/8x19 5/8 ",
+      "price": "790",
+      "star": "4",
+      "img1": "https://www.ikea.com/in/en/images/products/micke-desk-white__0736020_pe740347_s5.jpg?f=xxs",
+      "img2": "https://www.ikea.com/global/assets/navigation/images/standing-desks-55008.jpeg?imwidth=400"
+    },
+    {
+      "id": "2",
+      "title": "MICKE",
+      "size": "Desk142x50 cm (55 7/8x19 5/8 ",
+      "price": "799",
+      "star": "1",
+      "img1": "https://www.ikea.com/in/en/images/products/micke-desk-white__0736020_pe740347_s5.jpg?f=xxs",
+      "img2": "https://www.ikea.com/global/assets/navigation/images/standing-desks-55008.jpeg?imwidth=400"
+    },
+    {
+      "id": "3",
+      "title": "MICKE",
+      "size": "Desk142x50 cm (55 7/8x19 5/8 ",
+      "price": "79900",
+      "star": "1",
+      "img1": "https://www.ikea.com/in/en/images/products/micke-desk-white__0736020_pe740347_s5.jpg?f=xxs",
+      "img2": "https://www.ikea.com/global/assets/navigation/images/standing-desks-55008.jpeg?imwidth=400"
+    },
+    {
+      "id": "4",
+      "title": "MICKE",
+      "size": "Desk142x50 cm (55 7/8x19 5/8 ",
+      "price": "990",
+      "star": "1",
+      "img1": "https://www.ikea.com/in/en/images/products/micke-desk-white__0736020_pe740347_s5.jpg?f=xxs",
+      "img2": "https://www.ikea.com/global/assets/navigation/images/standing-desks-55008.jpeg?imwidth=400"
+    },
+    {
+      "id": "5",
+      "title": "MICKE",
+      "size": "Desk142x50 cm (55 7/8x19 5/8 ",
+      "price": "4990",
+      "star": "4",
+      "img1": "https://www.ikea.com/in/en/images/products/micke-desk-white__0736020_pe740347_s5.jpg?f=xxs",
+      "img2": "https://www.ikea.com/global/assets/navigation/images/standing-desks-55008.jpeg?imwidth=400"
+    }
+  ]
+}

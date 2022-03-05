@@ -1,79 +1,71 @@
-*{
+/* *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-}
+} */
 
-.container{
+.container {
   width: 100%;
   max-width: 480px;
   margin: auto;
 }
-.accordion{
+.accordion {
   width: 100%;
   max-width: 540px;
- 
- 
-
 }
-.accordionHeading{
-  background-color: rgb(255,219,0);
- 
+.accordionHeading {
+  background-color: rgb(255, 219, 0);
+
   border-top: 1px solid rgba(0, 0, 0, 0.178);
   display: flex;
   padding-left: 30px;
-  
+
   box-sizing: border-box;
   padding-bottom: 40px;
   padding-top: 30px;
 
-  transition:background-color 0.3s ;
+  transition: background-color 0.3s;
   border-radius: 5px;
-
 }
 
-.accordionHeading:hover{
-  background-color:rgb(255,240,148) ;
+.accordionHeading:hover {
+  background-color: rgb(255, 240, 148);
 }
 
 .accordionHeading p {
-letter-spacing: 1.2px;
-font-weight: 600;
+  letter-spacing: 1.2px;
+  font-weight: 600;
 }
 
-.accordionHeading span{
+.accordionHeading span {
   cursor: pointer;
 }
 
-.accordionContent{
-  background-color:white;
+.accordionContent {
+  background-color: white;
   height: 0;
   opacity: 0;
   overflow: hidden;
   transition: all 600ms ease-in-out;
- 
- 
 }
 
 .accordionContent p {
   font-size: 15px;
   line-height: 1.6;
 }
-.showaccordionContent{
-  background-color: rgb(255,219,0);
+.showaccordionContent {
+  background-color: rgb(255, 219, 0);
   height: 230px;
   box-sizing: border-box;
   padding-top: 15px;
   opacity: 1;
-  border-top:1px solid rgba(0, 0, 0, 0.315) ;
+  border-top: 1px solid rgba(0, 0, 0, 0.315);
   overflow: hidden;
   transition: all 400ms ease-in-out;
 }
 
-
 .BannerSearch {
-    
   background-color: rgb(255, 240, 148);
   width: 90%;
   margin: auto;
@@ -82,7 +74,7 @@ font-weight: 600;
   border-radius: 10px;
   box-sizing: border-box;
   padding-top: 20px;
-  }
+}
 
 .BannerSearch input {
   width: 83%;
@@ -106,30 +98,14 @@ font-weight: 600;
   padding-left: 10px;
 }
 
-
-
-
-
-
-
 @media only screen and (max-width: 1020px) {
-
-
-  .accordionHeading{
-
+  .accordionHeading {
     padding-left: 32px;
     width: 100%;
-  
-   
-  
   }
 
-  .accordion{
+  .accordion {
     width: 100%;
     max-width: 1000px;
-    
- 
-   
-  
   }
 }

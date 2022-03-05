@@ -1,0 +1,147 @@
+.starter {
+  margin-left: 9rem;
+  padding-top: 1rem;
+}
+
+.detail_section {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-right: 12rem;
+}
+
+.image_section {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;*/
+  margin-top: 2rem;
+  margin-right: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.images {
+  object-fit: cover;
+  width: 95%;
+  height: 100%;
+}
+.border_ {
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 1.7rem;
+}
+.title_price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-right: 12rem; */
+}
+
+.size {
+  color: #484848;
+  font-size: 1rem;
+  margin-top: -0.7rem;
+}
+
+.size2 {
+  color: #484848;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.span {
+  font-size: 0.7rem;
+  margin-right: 0.3rem;
+}
+.c {
+  color: black;
+  display: flex;
+}
+
+/* FORM STYLING */
+.form {
+  padding-top: 5rem;
+}
+
+.form > label {
+  font-size: 0.85rem;
+}
+
+.form > input[type="text"] {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 3rem;
+  padding: 0.5 0.5rem;
+  margin: 0 0.5rem;
+}
+
+.form > input[type="text"]:after {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.form input[type="submit"] {
+  border: none;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 50px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.form input[type="submit"]:hover {
+  border: 1px solid black;
+}
+
+.button_to_cart {
+  width: 100%;
+  margin-top: 2rem;
+  border: none;
+  color: white;
+  background-color: #0058a3;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.measure {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  padding: 1rem 1rem;
+}
+.go_to_cart {
+  background-color: transparent;
+  border-radius: 50px;
+  color: black;
+  padding: 0.5rem;
+  margin-left: 2rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.go_to_cart_disable {
+  background-color: #dfdfdf;
+  border-radius: 50px;
+  color: black;
+  padding: 0.5rem;
+  margin-left: 2rem;
+}
+@media only screen and (max-width: 900px) {
+  .starter {
+    margin-left: 2rem;
+  }
+  .detail_section {
+    grid-template-columns: 100%;
+  }
+  .images {
+    /* height: 200%; */
+    width: 100%;
+  }
+  .image_section {
+    grid-template-columns: 100%;
+  }
+  .detail_section {
+    padding-right: 0;
+  }
+}

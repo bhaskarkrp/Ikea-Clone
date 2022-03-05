@@ -1,0 +1,93 @@
+.starter {
+  margin-left: 9rem;
+  padding-top: 3rem;
+  /* width: 50%; */
+}
+
+.text_small {
+  color: #484848;
+  font-size: 1rem;
+  line-height: 1;
+}
+.text_small_lite {
+  color: #484848;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: solid 1px #dfdfdf;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+
+/* Comparison */
+.one_product_div {
+  width: 90%;
+}
+.upper_part {
+  border-bottom: solid 1px #dfdfdf;
+  padding-bottom: 5rem;
+}
+
+.div_flex_two_buttons {
+  display: flex;
+  justify-content: space-between;
+  /* display: none; */
+  padding: 1rem 0.5rem;
+}
+
+.image_compare {
+  width: 100%;
+  height: 15rem;
+}
+
+.size {
+  color: #484848;
+  font-size: 0.8rem;
+  margin-top: -1rem;
+}
+.c {
+  color: black;
+  display: flex;
+}
+.span {
+  font-size: 0.7rem;
+  margin-right: 0.3rem;
+}
+
+.last_div {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+li {
+  padding-bottom: 0.8rem;
+  color: #484848;
+}
+
+.measurement {
+  color: #484848;
+}
+
+.completeDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 4rem;
+  width: 50%;
+  overflow-x: auto;
+}
+
+@media only screen and (max-width: 1146px) {
+  .starter {
+    margin-left: 2rem;
+    /* width: 100%; */
+  }
+  .completeDiv {
+    width: 100%;
+  }
+}
