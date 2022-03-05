@@ -8,6 +8,7 @@ import CloseIcon from "@material-ui/icons/Close";
 
 import styles from './SideMenu.module.css'
 import LandingPageContext from "../ContextLandingPage/ContextLandingPage";
+import { NavLink } from "react-router-dom";
 
 
 // Use tRANSITION COMPONENT
@@ -45,13 +46,14 @@ export default function BasicModal() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div>
+    <div className={styles.SideContainer}>
      
       <Modal
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
+       
       >
         <Box sx={style}>
           <div>
@@ -61,10 +63,11 @@ export default function BasicModal() {
 
           <Typography id="modal-modal-description" sx={{ mt: 18, ml:7 }}>
             <div>
-              <a className={styles.anchorTag} href="/">Shop</a>
+            
+              <NavLink className={styles.anchorTag} to="/home">Shop</NavLink>
             </div>
             <div>
-              <a className={styles.anchorTag}  href="/">About IKEA</a>
+              <NavLink className={styles.anchorTag} to="./about" >About IKEA</NavLink>
             </div>
             <div>
               {" "}

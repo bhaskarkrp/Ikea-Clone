@@ -62,12 +62,55 @@ font-weight: 600;
 }
 .showaccordionContent{
   background-color: rgb(255,219,0);
-  height: 180px;
+  height: 230px;
+  box-sizing: border-box;
+  padding-top: 15px;
   opacity: 1;
   border-top:1px solid rgba(0, 0, 0, 0.315) ;
   overflow: hidden;
   transition: all 400ms ease-in-out;
 }
+
+
+.BannerSearch {
+    
+  background-color: rgb(255, 240, 148);
+  width: 90%;
+  margin: auto;
+  margin-top: 0px;
+  height: 200px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  }
+
+.BannerSearch input {
+  width: 83%;
+  height: 86%;
+  border: 0px;
+  font-size: 15px;
+  padding-left: 8px;
+  outline: none;
+}
+.InputField {
+  width: 93%;
+  height: 48px;
+  border-radius: 8px;
+
+  background-color: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 1020px) {
 

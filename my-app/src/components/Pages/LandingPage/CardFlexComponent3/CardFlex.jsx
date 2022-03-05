@@ -2,6 +2,7 @@
 import React from 'react'
 import styles from './CardFlex.module.css'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import { NavLink } from 'react-router-dom';
 
 export const CardFlex = () => {
   return (
@@ -22,7 +23,7 @@ export const CardFlex = () => {
         <div className={styles.Card}>
         <img src="https://www.ikea.com/global/en/images/museum_1cdda3df28.jpg?f=s" alt="" />
             <div className={styles.CardContent}>
-            <span>About IKEA</span> <ArrowForwardIcon style={{fontSize:"medium",position:"relative",right:"-110px"}} />
+            <span> <NavLink style={{textDecoration:"none",color:"black"}}  to="./about" > About IKEA</NavLink>  </span> <ArrowForwardIcon style={{fontSize:"medium",position:"relative",right:"-110px"}} />
             </div>
         </div>
         <div className={styles.Card}>

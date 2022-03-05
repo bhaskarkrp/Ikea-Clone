@@ -2,6 +2,7 @@ import styles from "./Banner.module.css";
 import BannerSearch from "./BannerSearch";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import { SvgIconBanner } from "./SvgIconBanner";
+import { NavLink } from "react-router-dom";
 
 export const Banner = () => {
   return (
@@ -12,17 +13,14 @@ export const Banner = () => {
         </div>
       </div>
       <div className={styles.BannerRightPart}>
-        <div className={styles.GoshoppingContainer}>
-        <div>
-        Go Shopping
-        </div>
-          <div className={styles.TransitionArrow}>
-          <ArrowForwardIcon
-            style={{ fontSize: "35"}}
-          />
-          </div>
+        <NavLink className={styles.GoshoppingContainer} to='./home' >
+            <div>Go Shopping</div>
+            <div className={styles.TransitionArrow}>
+              <ArrowForwardIcon style={{ fontSize: "35" }} />
+            </div>
           
-        </div>
+        </NavLink>
+
         <BannerSearch />
       </div>
     </div>

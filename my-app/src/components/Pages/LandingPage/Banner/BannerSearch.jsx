@@ -14,9 +14,12 @@ export const BannerSearch = () => {
         }
       >
         <div className={styles.container}></div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae culpa non
-        modi voluptate alias ipsum nesciunt error debitis quos maxime ullam
-        earum quasi pariatur, nemo tenetur eos ratione quibusdam quo!
+        <div className={styles.BannerSearch}>
+              <div className={styles.InputField}>
+                <SearchIcon />
+                <input placeholder="Find online store" type="search"></input>
+              </div>
+            </div>
       </div>
 
       <div

@@ -1,0 +1,100 @@
+.mainInputDiv input {
+  width: 550px;
+  border: 0px;
+  font-size: 15px;
+  line-height: 24.0001px;
+  font-weight: 400;
+  word-spacing: 0.03rem;
+  outline: none;
+  box-sizing: border-box;
+  
+  padding-bottom: 1px;
+}
+
+.mainInputDiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  margin-top: 60px;
+}
+.radioInput {
+  font-size: 14px;
+  line-height: 24.0001px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.555);
+}
+
+.TitleRight{
+    font-size: 14px;
+    line-height: 24.0001px;
+    font-weight: 700;
+}
+
+.topInputDiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.radioInputMain{
+   transform: scale(1.7);
+}
+
+.radioInput span{
+    margin-left: 20px;
+   
+}
+
+.radioInput{
+    display: flex;
+    align-items: center;
+}
+.CheckPad{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    margin-top: 20px;
+
+}
+.checkBoxGroup input{
+    transform: scale(2);
+}
+.CheckPad{
+    padding-left: 40px;
+}
+.checkBoxGroup{
+    margin-top: 50px;
+    padding-left: 5px;
+}
+.CheckLast{
+    margin-top: 60px;
+}
+
+.checkBoxGroup span{
+    box-sizing: border-box;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+
+.createProfile{
+    width: 420px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 70px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition:background-color 0.5s ;
+}
+.createProfile:hover{
+    background-color: rgb(51, 48, 48) ;
+}
+.rightSection{
+    box-sizing: border-box;
+    padding-right: 60px;
+    padding-top: 20px;
+}
