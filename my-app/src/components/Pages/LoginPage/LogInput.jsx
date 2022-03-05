@@ -1,8 +1,9 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import styles from "./loginput.module.css";
 
 export const LogInput = () => {
+  const navigate = useNavigate()
   return (
     <div className={styles.rightSection}>
       <div className={styles.EmailDiv}>
@@ -22,8 +23,8 @@ export const LogInput = () => {
       <button className={styles.ContinueBtn} >Continue</button>
       <div className={styles.SignUpButtons}>
       <p>Do not have an IKEA account? Create one now:</p>
-      <button className={styles.ContinueBtn} >I'm buying for my home</button>
-      <button className={styles.ContinueBtn} >I'm buying for my company</button>
+      <button className={styles.ContinueBtn} onClick={()=>{navigate("/signup") }} >I'm buying for my home</button>
+      <button className={styles.ContinueBtn}  onClick={()=>{navigate("/signup") }} >I'm buying for my company</button>
 
       </div>
     

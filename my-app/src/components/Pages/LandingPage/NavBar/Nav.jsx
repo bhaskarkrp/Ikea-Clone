@@ -21,7 +21,7 @@ export default function Nav() {
     <Box sx={{ flexGrow: 1  }}>
       <AppBar
         sx={{ backgroundColor: "rgb(240,237,232)", color: "black" , height:"64px",top:"0px",boxShadow:"0",zIndex:"1"}}
-        position="static"
+        position="fixed"
       >
         <Toolbar>
           <MenuIcon onClick={sideMenuOpenHandler} style={{fontSize:"40px",marginLeft:"5px",cursor:"pointer",width:"40px"}} />

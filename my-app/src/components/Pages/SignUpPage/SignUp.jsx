@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './signup.module.css'
+import { SignUpInput } from './SignUpInput'
 
 export const SignUp = () => {
   return (
@@ -43,6 +44,7 @@ export const SignUp = () => {
             
             
         </div>
+        <SignUpInput/>
     </div>
   )
 }
