@@ -8,6 +8,7 @@ import SideMenuBhaskar from "./Components/sideMenuBhaskar/SideMenuBhaskar";
 import { Cartpage } from "./Components/ProductAll/addToCartPage/Cartpage";
 import { Context } from "./Components/Context";
 import React from "react";
+import Footer from "./components/Pages/About/AboutComponents/Footer";
 
 function ProductRoutings() {
 
@@ -24,6 +25,7 @@ function ProductRoutings() {
                 <Route path="/cart" element={<Cartpage />} />
                 {/* <Route path="*" elements={ } /> */}
             </Routes>
+            <Footer />
         </div>
     );
 }

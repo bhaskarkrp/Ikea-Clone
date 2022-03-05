@@ -1,84 +1,60 @@
-*{
+/* *{
     box-sizing: border-box;
+} */
+.container {
+  background-color: #f5f5f5;
+  width: 100%;
+  /* height: 448px; */
+  margin-top: 100px;
 }
-.container{
-    
+.innercontainer {
+  width: 53%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 120px;
 
-    background-color: #f5f5f5;
-    width: 100%;
-    /* height: 448px; */
-    margin-top: 100px;
-   
-   
-}
-.innercontainer{
-  
-     width: 53%;
-     margin: auto; 
-     display: flex; 
-      flex-direction: column;
-     justify-content: center;
-     padding-bottom: 120px;
-    
-    
-     /* justify-content: flex-start; */
+  /* justify-content: flex-start; */
 }
 
-.para{
-    margin-top: 150px;
-    font-size: 2rem;
+.para {
+  margin-top: 150px;
+  font-size: 2rem;
+  line-height: 1.3334;
+  letter-spacing: -0.42px;
+}
+.link {
+  line-height: 1.5;
+  font-size: 1em;
+  font-weight: 900;
+  color: #0058a3;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .innercontainer {
+    width: 90%;
+    padding-bottom: 110px;
+  }
+  .para {
+    margin-top: 120px;
+    font-size: 1.5rem;
     line-height: 1.3334;
     letter-spacing: -0.42px;
-
-   
-}
-.link{
-    line-height: 1.5;
-    font-size: 1em;
-    font-weight: 900;
-    color: #0058a3;
-    background-color: transparent;
-    text-decoration: none;
-
-}
-
-@media only  screen and (max-width:768px)
-{
-    
-   
-    .innercontainer{
-          width: 90%;
-          padding-bottom: 110px;
-          
-         
-     }
-     .para{
-        margin-top: 120px;
-        font-size: 1.5rem;
-        line-height: 1.3334;
-        letter-spacing: -0.42px;
-    
-       
-    }
-     
-}
-
-
-@media only  screen and (min-width:768px) and (max-width:1020px){
-
-    .innercontainer{
-        width: 90%;
-        padding-bottom: 110px;
-        
-       
-   }
-   .para{
-      margin-top: 120px;
-      font-size: 1.5rem;
-      line-height: 1.3334;
-      letter-spacing: -0.42px;
-  
-     
   }
-     
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+  .innercontainer {
+    width: 90%;
+    padding-bottom: 110px;
+  }
+  .para {
+    margin-top: 120px;
+    font-size: 1.5rem;
+    line-height: 1.3334;
+    letter-spacing: -0.42px;
+  }
 }

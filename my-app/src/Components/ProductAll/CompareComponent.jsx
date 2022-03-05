@@ -48,8 +48,8 @@ export const CompareComponent = ({ item }) => {
                         <FavoriteIcon onClick={handleWishList} color={wishlist ? "action" : "disabled"} />
                     </div>
                     <div >
-                        {!onHoverActive ? <img className={styles.image_compare} src={item.img1} alt="" onClick={() => navigate(`/${item.id}`)} /> :
-                            <img className={styles.image_compare} src={item.img2} alt="" onClick={() => navigate(`/${item.id}`)} />}
+                        {!onHoverActive ? <img className={styles.image_compare} src={item.img1} alt="" onClick={() => navigate(`../${item.id}`)} /> :
+                            <img className={styles.image_compare} src={item.img2} alt="" onClick={() => navigate(`../${item.id}`)} />}
                     </div>
                     <div>
                         {/* Details */}
