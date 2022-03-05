@@ -1,7 +1,7 @@
 import { StateLandingPage } from "./components/Pages/LandingPage/ContextLandingPage/StateLandingPage";
 import "./App.css";
 import { LandingPage } from "./components/Pages/LandingPage/LandingPage";
-import { ContextProvider } from "./Components/Context";
+import { ContextProvider } from "./ComponentsB/Context";
 import ProductRoutings from "./ProductRoutings";
 import { MainRoutings } from "./MainRoutings";
 
