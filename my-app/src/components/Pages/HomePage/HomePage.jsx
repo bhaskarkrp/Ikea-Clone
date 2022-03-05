@@ -8,15 +8,18 @@ import { Div, H4, Button } from "./styled";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import { Categories } from "./categories.jsx";
 import { Category2 } from "./Category2";
-import IkeaOffers  from "./IkeaOffers";
+import IkeaOffers from "./IkeaOffers";
+import { useNavigate } from 'react-router-dom';
 const HomePage = () => {
 
   const [value, setValue] = React.useState(0);
+  const navigate = useNavigate();
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
   return (
+
     <div className={style.home}>
       <img src={shopnowpic} alt="pic" />
       <Box className={style.scrolllerItems} >
@@ -37,7 +40,7 @@ const HomePage = () => {
                   <img src={card.url} alt="pic" />
                   <Div bg={card.bg} color={card.color}>
                     <H4>{card.text1}</H4>
-                    <Button bg={card.bg}><BsArrowRightCircleFill size={60} /></Button>
+                    <Button bg={card.bg} onClick={() => navigate("/products")}><BsArrowRightCircleFill size={60} /></Button>
                   </Div>
                 </div>
               )

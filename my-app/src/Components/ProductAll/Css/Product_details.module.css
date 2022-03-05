@@ -1,0 +1,57 @@
+.product_div {
+  padding: 0.9rem;
+  cursor: pointer;
+  border-bottom: 1px solid #dfdfdf;
+  width: max-content;
+  margin: auto;
+}
+
+.compare_heart {
+  display: flex;
+  justify-content: space-between;
+}
+.compare_heart input {
+  width: 24px;
+  height: 24px;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid #484848;
+  cursor: pointer;
+}
+
+.compare_heart label {
+  font-size: 0.75rem;
+  color: #484848;
+  margin: auto 0.6rem;
+}
+
+.heart {
+  width: 20px;
+  height: 20px;
+  color: #484848;
+  cursor: pointer;
+}
+
+.product_img {
+  height: 20rem;
+  width: 22rem;
+  /* transition: 10.5s; */
+}
+/* .product_img:hover {
+  transition: 10.5s;
+} */
+.c {
+  color: black;
+  display: flex;
+}
+
+.span {
+  font-size: 0.7rem;
+  margin-right: 0.3rem;
+}
+
+.size {
+  color: #484848;
+  font-size: 0.8rem;
+  margin-top: -1rem;
+}

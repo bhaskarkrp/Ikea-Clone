@@ -1,0 +1,61 @@
+.starter {
+  margin-left: 9rem;
+  padding-top: 1rem;
+}
+.outer_div_price {
+  width: 50%;
+  float: right;
+  padding-right: 11rem;
+}
+.flex_fee {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(68, 67, 67);
+}
+
+.upper_para {
+  color: #474444;
+  font-weight: 500;
+}
+.upper_para2 {
+  color: #474444;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.order_palce {
+  width: 75%;
+  margin-bottom: 2rem;
+  border: none;
+  color: white;
+  background-color: #0058a3;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+}
+
+.explore {
+  width: 30%;
+  margin-bottom: 2rem;
+  border: none;
+  color: white;
+  background-color: #0058a3;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.list_div {
+  position: relative;
+  top: 5rem;
+  padding-top: 1rem;
+}
+
+@media only screen and (max-width: 1143px) {
+  .starter {
+    margin-left: 2rem;
+  }
+}
