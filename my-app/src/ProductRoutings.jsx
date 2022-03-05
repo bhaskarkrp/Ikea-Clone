@@ -1,12 +1,12 @@
 // import "./App.css";
-import { Navbar } from "./Components/ProductAll/Navbar";
-import { AllProducts } from "./Components/ProductAll/AllProducts";
+import { Navbar } from "./ComponentsB/ProductAll/Navbar";
+import { AllProducts } from "./ComponentsB/ProductAll/AllProducts";
 import { Route, Routes } from "react-router-dom";
-import { CompareProducts } from "./Components/ProductAll/CompareProducts";
-import { SingleProductDetail } from "./Components/ProductAll/ProductDetailsPage/SingleProductDetail";
-import SideMenuBhaskar from "./Components/sideMenuBhaskar/SideMenuBhaskar";
-import { Cartpage } from "./Components/ProductAll/addToCartPage/Cartpage";
-import { Context } from "./Components/Context";
+import { CompareProducts } from "./ComponentsB/ProductAll/CompareProducts";
+import { SingleProductDetail } from "./ComponentsB/ProductAll/ProductDetailsPage/SingleProductDetail";
+import SideMenuBhaskar from "./ComponentsB/sideMenuBhaskar/SideMenuBhaskar";
+import { Cartpage } from "./ComponentsB/ProductAll/addToCartPage/Cartpage";
+import { Context } from "./ComponentsB/Context";
 import React from "react";
 import Footer from "./components/Pages/About/AboutComponents/Footer";
 

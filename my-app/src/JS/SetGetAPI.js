@@ -1,5 +1,5 @@
 import React from "react";
-import { Context } from "../Components/Context";
+import { Context } from "../ComponentsB/Context";
 
 export const SetGetAPI = () => {
   const { setProductData, setSingleProduct } = React.useContext(Context);
