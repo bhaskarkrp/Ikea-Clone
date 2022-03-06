@@ -6,6 +6,7 @@ import HomeMain from './components/Pages/HomePage/HomeMain'
 import { LandingPage } from './components/Pages/LandingPage/LandingPage'
 import { LogIn } from './components/Pages/LoginPage/LogIn'
 import { SignUp } from './components/Pages/SignUpPage/SignUp'
+import { Delivery } from './ComponentsB/ProductAll/addToCartPage/DeliveryInfo/Delivery'
 // import { Cartpage } from './Components/ProductAll/addToCartPage/Cartpage'
 // import { AllProducts } from './Components/ProductAll/AllProducts'
 // import { CompareProducts } from './Components/ProductAll/CompareProducts'
@@ -23,6 +24,7 @@ export const MainRoutings = () => {
                 <Route path="login" element={<LogIn />} />
                 <Route path="about" element={<About />} />
                 <Route path="Home" element={<HomeMain />} />
+                <Route path="/delivery" element={<Delivery />} />
                 <Route path="products/*" element={<ProductRoutings />} />
                 {/* <Route path="products" element={<AllProducts />} />
                 <Route path="products/comparision" element={<CompareProducts />} />

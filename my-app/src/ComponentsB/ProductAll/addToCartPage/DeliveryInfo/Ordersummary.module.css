@@ -1,0 +1,86 @@
+.container {
+  width: 426px;
+  height: 564px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 1.5%;
+  overflow: auto;
+}
+
+.EditItem {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+}
+.EditItem span {
+  margin-top: 10px;
+}
+
+.edit {
+  text-decoration: none;
+  color: blue;
+}
+
+.ItemsPrizeTotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.Total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.Atricle {
+  font-size: 13px;
+  color: grey;
+}
+.img {
+  height: 70px;
+  width: 90px;
+}
+
+.Line {
+  margin-left: -18px;
+  margin-right: -18px;
+
+  margin-top: 5rem;
+}
+
+.ContainerOrderValue {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.Order {
+  display: flex;
+  justify-content: space-between;
+}
+.DeliveryFee {
+  font-size: 14px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.dotLine {
+  margin-bottom: 10px;
+  border-top: 2px dotted grey;
+}
+
+.BoldLine {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+}
+.TotalAmout {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}

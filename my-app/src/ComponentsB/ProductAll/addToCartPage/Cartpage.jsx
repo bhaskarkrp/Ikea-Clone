@@ -3,6 +3,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Context } from '../../Context';
 import styles from '../Css/CartPage.module.css'
+import Deliverycontainer from './DeliveryInfo/Deliverycontainer';
 import { ListCart } from './ListCart';
 
 export const Cartpage = () => {
@@ -43,9 +44,9 @@ export const Cartpage = () => {
                                 <h2>Total Amount: </h2>
                                 <h2>RS. {totalCartValue}.00  </h2>
                             </div>
-                            <div style={{ float: 'right' }}>
+                            <div style={{ float: 'right', cursor: "pointer", zIndex: "1" }} >
                                 <p className={styles.upper_para2}>All Prices are inclusive of taxes</p>
-                                <button className={styles.order_palce}>Place Order</button>
+                                <button className={styles.order_palce} onClick={() => navigate("/delivery")}>Place Order</button>
                             </div>
                         </div>
                         <div className={styles.list_div}>
@@ -53,6 +54,9 @@ export const Cartpage = () => {
                                 toCart.map(item => <ListCart key={item.id} item={item} />)
                             }
                         </div>
+
+                        <Deliverycontainer />
+
                     </div>
                 ) : (
                     <>
