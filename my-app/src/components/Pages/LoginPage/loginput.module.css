@@ -1,5 +1,7 @@
 .rightSection {
-  padding-left: 80px;
+    box-sizing: border-box;
+  padding-left: 180px;
+  padding-right: 40px;
   padding-top: 78px;
 }
 .rightSection input {
@@ -19,9 +21,7 @@
 
 }
 
-.rightSection hr{
-    width: 55%;
-}
+
 .rightSection a{
   
     font-weight: 600;
@@ -29,8 +29,12 @@
     
    }
 
+   .EmailDiv{
+    width: 60%;
+   }
    .PasswordDiv{
        margin-top: 40px;
+       width: 60%;
    }
 
    .ContinueBtn{
