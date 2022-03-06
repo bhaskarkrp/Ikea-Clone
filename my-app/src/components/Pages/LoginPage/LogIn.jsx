@@ -3,6 +3,7 @@ import styles from "./login.module.css";
 import { FaArrowLeft } from "react-icons/fa";
 import { LogInput } from "./LogInput";
 export const LogIn = () => {
+  
   return (
     <div className={styles.MainLogInDiv} >
       <div className={styles.leftSection}>

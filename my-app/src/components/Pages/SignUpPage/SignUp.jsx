@@ -3,6 +3,7 @@ import styles from './signup.module.css'
 import { SignUpInput } from './SignUpInput'
 
 export const SignUp = () => {
+    
   return (
     <div className={styles.SignUpContainer}>
         <div className={styles.leftSection}>
