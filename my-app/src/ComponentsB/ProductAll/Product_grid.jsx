@@ -13,7 +13,7 @@ export const Product_grid = ({ filterApplied }) => {
     const navigate = useNavigate();
 
     React.useEffect(() => {
-        getAPi(fetch("http://localhost:3000/WFH"));
+        getAPi(fetch("http://localhost:8000/WFH"));
         // console.log(productData)
     }, []);
 

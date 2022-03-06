@@ -19,7 +19,7 @@ export const SingleProductDetail = () => {
 
 
     React.useEffect(() => {
-        getAPiSingle(fetch(`http://localhost:3000/WFH/${id.id}`));
+        getAPiSingle(fetch(`http://localhost:8000/WFH/${id.id}`));
 
     }, []);
 
