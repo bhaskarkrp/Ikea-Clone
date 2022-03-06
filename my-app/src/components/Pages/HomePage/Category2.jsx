@@ -42,7 +42,6 @@ export const Category2 = () => {
             >
                 {
                     dict3.map((card) => {
-                        console.log(card);
                         return (<>
                             <Div2 key={card.id} pic={card.url}><Button2 size={card.width}>{card.text}</Button2></Div2>                         
                         </>)

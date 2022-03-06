@@ -5,6 +5,7 @@ import About from './components/Pages/About/About'
 import HomeMain from './components/Pages/HomePage/HomeMain'
 import { LandingPage } from './components/Pages/LandingPage/LandingPage'
 import { LogIn } from './components/Pages/LoginPage/LogIn'
+import PaymentPage from './components/Pages/PaymentPage/PaymentPage'
 import { SignUp } from './components/Pages/SignUpPage/SignUp'
 import { Delivery } from './ComponentsB/ProductAll/addToCartPage/DeliveryInfo/Delivery'
 // import { Cartpage } from './Components/ProductAll/addToCartPage/Cartpage'
@@ -26,6 +27,7 @@ export const MainRoutings = () => {
                 <Route path="Home" element={<HomeMain />} />
                 <Route path="/delivery" element={<Delivery />} />
                 <Route path="products/*" element={<ProductRoutings />} />
+                <Route path="payment" element={<PaymentPage/>}          />
                 {/* <Route path="products" element={<AllProducts />} />
                 <Route path="products/comparision" element={<CompareProducts />} />
                 <Route path="products/:id" element={<SingleProductDetail />} />

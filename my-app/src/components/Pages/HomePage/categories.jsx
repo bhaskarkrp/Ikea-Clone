@@ -4,13 +4,11 @@ import style from "./Categories.module.css";
 import { Button2, Div2 } from "./styled";
 
 import InfiniteCarousel from 'react-leaf-carousel';
-import { useNavigate } from 'react-router-dom';
 
 export const Categories = () => {
-    const navigate = useNavigate();
     return (
         <div className={style.cat} >
-            <h2 style={{ textAlign: "left", marginLeft: "2rem" }}>Top Categories</h2>
+            <h2 style={{textAlign: "left", margin:"2rem"}}>Top Categories</h2>
             <InfiniteCarousel
                 breakpoints={[
                     {
@@ -46,9 +44,7 @@ export const Categories = () => {
                 {
                     dict2.map((card) => {
                         return (<>
-                            <Div2 pic={card.url}>
-                                <Button2 size={card.width}>{card.text}</Button2>
-                            </Div2>
+                            <Div2 pic={card.url}><Button2 size={card.width}>{card.text}</Button2></Div2>                         
                         </>)
                     })
                 }
