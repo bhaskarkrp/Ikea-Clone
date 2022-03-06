@@ -8,9 +8,12 @@ import { RiHeartPulseLine } from 'react-icons/ri';
 
 import Ordersummary from './Ordersummary';
 import Deliverycontainer from './Deliverycontainer';
+import { useNavigate } from 'react-router-dom';
 
 
 export const Delivery = () => {
+
+  const navigate =  useNavigate()
   return (
     <>
 
@@ -237,7 +240,7 @@ export const Delivery = () => {
 
               <button  >Return</button>
 
-              <button>Proceed to pay</button>
+              <button onClick={()=>{navigate("/payment")}}  >Proceed to pay</button>
 
             </div>
 
