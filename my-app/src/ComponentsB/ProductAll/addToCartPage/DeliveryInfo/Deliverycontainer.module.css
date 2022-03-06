@@ -1,0 +1,33 @@
+.DeliveryContainer {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+  margin-bottom: 3rem;
+  box-sizing: border-box;
+  padding-right: 7rem;
+}
+
+.DeliveryService {
+  /* height: max-content; */
+  width: 100%;
+  border: 2px solid gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.DeliveryIcon {
+  height: 50px;
+  width: 120px;
+}
+
+.DeliveryTitle {
+  padding-left: 0.8rem;
+}
+.MorInfoLink {
+  text-decoration: none;
+
+  color: rgb(83, 83, 182);
+}

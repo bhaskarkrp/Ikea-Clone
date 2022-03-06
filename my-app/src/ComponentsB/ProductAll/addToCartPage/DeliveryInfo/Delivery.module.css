@@ -1,0 +1,207 @@
+/* *{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ */
+
+.container {
+  /* background-color: antiquewhite; */
+  max-width: 100%;
+  /* height: 2000px; */
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 11%;
+}
+.logLogin {
+  display: flex;
+  justify-content: space-between;
+  /* border:  1px solid black; */
+}
+
+.logo {
+  height: 30px;
+}
+.login {
+  text-decoration: none;
+  color: blue;
+  margin-top: 20px;
+}
+
+.cartInfo {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.first {
+  background: url("https://ww8.ikea.com/clickandcollect/in/_Resources/Static/Packages/Inwebs.IkeaClickCollect.World/IRW/Images/arrow_active.gif");
+
+  background-repeat: no-repeat;
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  color: gray;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftDeliveryInfo {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.deliveryDate {
+  margin-top: 35px;
+}
+
+.deliveryInfo {
+  margin-left: 13px;
+  border-radius: 4px;
+}
+
+.billingDetails {
+  margin-top: 45px;
+}
+
+/* for Checbox */
+
+.containerBox {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Indcheck {
+  margin-left: 25px;
+}
+
+/* end checbox */
+
+.hr {
+  width: 300px;
+  margin-bottom: 30px;
+  color: grey;
+}
+
+.DeatilsTitle {
+  color: grey;
+}
+
+/* for form */
+
+.form {
+  margin-top: 10px;
+}
+
+.Input {
+  height: 28px;
+  width: 300px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid black;
+}
+
+/* for Pin Code */
+.pinCode {
+  display: flex;
+  gap: 10px;
+}
+.pinInput {
+  height: 28px;
+  border-radius: 3px;
+  width: 190px;
+  border: none;
+  border: 1px solid black;
+  background-color: rgb(238, 230, 230);
+}
+.cityInput {
+  height: 28px;
+  border-radius: 3px;
+  width: 100px;
+  border: none;
+  border: 1px solid black;
+}
+
+.countryState {
+  width: 230px;
+  height: 28px;
+  background-color: rgb(238, 230, 230);
+  border-radius: 3px;
+  margin-bottom: 7px;
+  border: none;
+  border: 1px solid black;
+}
+
+/* For Some para and Term and condition page  */
+
+.TermCondition {
+  color: rgb(73, 118, 214);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.paraTerm {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.IkeaF {
+  color: grey;
+  font-size: 14px;
+}
+
+.hr2 {
+  width: 300px;
+  margin-top: 25px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.IkeaFamilyCard {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 30px;
+}
+
+.btnReturnProceed {
+  display: flex;
+  gap: 200px;
+}
+
+.btnReturnProceed button {
+  border-radius: 3px;
+
+  padding: 3px;
+  background-color: rgb(83, 83, 182);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 100px;
+  font-weight: 700;
+}
+.LastPara {
+  margin-top: 15px;
+  font-size: 17px;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.CopyRight {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: grey;
+}
+
+.paraFooter {
+  color: white;
+  font-size: 14px;
+}
+.FLinkCondition {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
