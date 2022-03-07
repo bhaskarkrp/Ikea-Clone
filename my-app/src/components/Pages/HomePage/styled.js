@@ -55,12 +55,15 @@ border: none;
 export const Button2 = styled.button `
   background-color: white;
   width: ${props => props.size};
-  margin: 13rem auto;
-  position: bottom;
+  position: absolute;
+  left: 3rem;
+  bottom: 0;
   border-radius: 1.5rem;
   border: none;
   padding: 9px 10px;
   font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 4rem;
 `;
 
 export const Div2 = styled.div `

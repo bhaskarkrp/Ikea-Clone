@@ -35,6 +35,7 @@ export const LogInput = () => {
     postMe(login_data).then((res) => {
       setIsLogin(true)
       console.log(res);
+      navigate('/products/cart')
     }).catch((err) => {
       // alert("Signup First")
       setAlert(true)

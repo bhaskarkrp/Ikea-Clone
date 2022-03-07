@@ -15,11 +15,11 @@ export const SingleProductDetail = () => {
     const { getAPiSingle } = SetGetAPI();
     const navigate = useNavigate();
 
-    // console.log(id.id);
+    // console.log(toCart);
 
 
     React.useEffect(() => {
-        getAPiSingle(fetch(`http://localhost:3000/WFH/${id.id}`));
+        getAPiSingle(fetch(`https://fake-server-app5622.herokuapp.com/HAE/${id.id}`));
 
     }, []);
 
@@ -35,7 +35,7 @@ export const SingleProductDetail = () => {
         } else {
             alert("Product is Already in Cart");
         }
-        console.log(toCart);
+        // console.log(toCart);
     }
 
     return (

@@ -2,8 +2,10 @@ import styles from "./signupInput.module.css";
 import React, { useContext, useRef, useState } from "react";
 
 import LandingPageContext from "../LandingPage/ContextLandingPage/ContextLandingPage";
+import { Navigate, useNavigate } from "react-router-dom";
 
 export const SignUpInput = () => {
+  const navigate = useNavigate()
   const nameref = useRef();
   const userNameref = useRef();
   const emailInputref = useRef();
@@ -36,7 +38,8 @@ export const SignUpInput = () => {
    
     postMe(register_data)
       .then((res) => {
-        console.log(res);
+        navigate('/login')
+        
       })
       .catch((err) => {
         console.log(err);

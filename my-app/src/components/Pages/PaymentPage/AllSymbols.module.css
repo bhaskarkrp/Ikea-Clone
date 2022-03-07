@@ -1,0 +1,31 @@
+.Paysymbols {
+    display: flex;
+    width: 60%;
+    border: 1px solid grey;
+    margin: 2rem auto;
+    height: 150px;
+    justify-content: space-evenly;
+}
+.symbol {
+    display: flex;
+    margin-left: 3rem;
+    gap: 1rem;
+}
+
+.symbol > div {
+    width: 10%;
+}
+
+.symbol img {
+    object-fit: contain;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.world img {
+    object-fit: contain;
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
