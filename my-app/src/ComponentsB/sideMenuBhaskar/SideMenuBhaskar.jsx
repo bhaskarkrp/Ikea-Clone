@@ -72,14 +72,17 @@ export default function SideMenuBhaskar({ value }) {
                             value === "Navbar" ? (
                                 <>
                                     <div>
-                                        <a className={styles.anchorTag} href="/">Products</a>
+                                        <a className={styles.anchorTag} href="/">Home</a>
+                                    </div>
+                                    <div>
+                                        <a className={styles.anchorTag} href="/products">Products</a>
                                     </div>
                                     <div>
                                         <a className={styles.anchorTag} href="/">Rooms</a>
                                     </div>
                                     <div>
                                         {" "}
-                                        <a className={styles.anchorTag} href="/">New at IKEA</a>
+                                        <a className={styles.anchorTag} href="/about">New at IKEA</a>
                                     </div>
                                     <div>
                                         <a className={styles.anchorTag} href="/">All offers</a>
