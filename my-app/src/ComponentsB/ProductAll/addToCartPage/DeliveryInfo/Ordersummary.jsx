@@ -6,7 +6,7 @@ import styles from './Ordersummary.module.css'
 const Ordersummary = () => {
   const { toCart } = React.useContext(Context);
   const [totalCartValue, setTotalCartValue] = React.useState("");
-  const [finalCartValue, setFinalCartValue] = React.useState("");
+  const {finalCartValue, setFinalCartValue} = React.useContext(Context);
 
 
   React.useEffect(() => {

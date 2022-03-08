@@ -10,26 +10,7 @@ import AllSymbols from './AllSymbols';
 import { Context } from '../../../ComponentsB/Context';
 
 const PaymentPage = () => {
-
-    const { toCart } = React.useContext(Context);
-    const [setTotalCartValue] = React.useState("");
-    const [finalCartValue, setFinalCartValue] = React.useState("");
-
-
-    React.useEffect(() => {
-        // const total = toCart.reduce((prev, curr) => (prev.price += curr.price), 0);
-        let total = 0;
-        toCart.forEach(item => {
-            console.log(item.price);
-            total += +item.price;
-        });
-        if (total > 0) {
-            setTotalCartValue(total);
-            total += 599;
-        }
-        // console.log(total, toCart);
-        setFinalCartValue(total);
-    }, [toCart])
+    const {finalCartValue} = React.useContext(Context);
     return (
         <div >
             <div className={style.top}>

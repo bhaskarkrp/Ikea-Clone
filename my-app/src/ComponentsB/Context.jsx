@@ -11,6 +11,7 @@ export const ContextProvider = ({ children }) => {
     const [open, setOpen] = React.useState(false);
     const [toCart, setToCart] = React.useState([]);
     const [sideMenuValue, setSideMenuValue] = React.useState("");
+    const [finalCartValue, setFinalCartValue] = React.useState("");
 
     const value = {
         productData,
@@ -28,7 +29,9 @@ export const ContextProvider = ({ children }) => {
         toCart,
         setToCart,
         sideMenuValue,
-        setSideMenuValue
+        setSideMenuValue,
+        finalCartValue, 
+        setFinalCartValue
     }
 
     return (
