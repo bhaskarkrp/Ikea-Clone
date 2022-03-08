@@ -68,7 +68,7 @@ export const AllProducts = () => {
                                 <option value={item.three}>{item.three}</option>
                                 <option value={item.four}>{item.four}</option>
                             </select>
-                            {item.sort == "All Filters" ? <FilterListIcon className={styles.icon} /> : <KeyboardArrowDownIcon className={styles.icon} />}
+                            {item.sort === "All Filters" ? <FilterListIcon className={styles.icon} /> : <KeyboardArrowDownIcon className={styles.icon} />}
                         </>
                     ))}
                 </div>

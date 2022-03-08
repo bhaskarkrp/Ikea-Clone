@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import App from './App'
 import About from './components/Pages/About/About'
 import HomeMain from './components/Pages/HomePage/HomeMain'
 import { LandingPage } from './components/Pages/LandingPage/LandingPage'
@@ -27,7 +26,7 @@ export const MainRoutings = () => {
                 <Route path="Home" element={<HomeMain />} />
                 <Route path="/delivery" element={<Delivery />} />
                 <Route path="products/*" element={<ProductRoutings />} />
-                <Route path="payment" element={<PaymentPage/>}          />
+                <Route path="payment" element={<PaymentPage />} />
                 {/* <Route path="products" element={<AllProducts />} />
                 <Route path="products/comparision" element={<CompareProducts />} />
                 <Route path="products/:id" element={<SingleProductDetail />} />

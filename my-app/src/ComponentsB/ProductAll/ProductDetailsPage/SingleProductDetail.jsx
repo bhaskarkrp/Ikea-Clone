@@ -15,7 +15,7 @@ export const SingleProductDetail = () => {
     const { getAPiSingle } = SetGetAPI();
     const navigate = useNavigate();
 
-    // console.log(id.id);
+    // console.log(toCart);
 
 
     React.useEffect(() => {
@@ -35,7 +35,7 @@ export const SingleProductDetail = () => {
         } else {
             alert("Product is Already in Cart");
         }
-        console.log(toCart);
+        // console.log(toCart);
     }
 
     return (

@@ -6,7 +6,7 @@ import { CompareProducts } from "./ComponentsB/ProductAll/CompareProducts";
 import { SingleProductDetail } from "./ComponentsB/ProductAll/ProductDetailsPage/SingleProductDetail";
 import SideMenuBhaskar from "./ComponentsB/sideMenuBhaskar/SideMenuBhaskar";
 import { Cartpage } from "./ComponentsB/ProductAll/addToCartPage/Cartpage";
-import { Delivery } from "./ComponentsB/ProductAll/addToCartPage/DeliveryInfo/Delivery"
+// import { Delivery } from "./ComponentsB/ProductAll/addToCartPage/DeliveryInfo/Delivery"
 import { Context } from "./ComponentsB/Context";
 import React from "react";
 import Footer from "./components/Pages/About/AboutComponents/Footer";

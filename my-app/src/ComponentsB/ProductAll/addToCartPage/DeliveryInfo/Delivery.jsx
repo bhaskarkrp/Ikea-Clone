@@ -1,9 +1,9 @@
 import React from 'react'
 import style from './Delivery.module.css'
 
-import { GrDeliver } from 'react-icons/gr';
-import { GiDrill } from 'react-icons/gi';
-import { RiHeartPulseLine } from 'react-icons/ri';
+// import { GrDeliver } from 'react-icons/gr';
+// import { GiDrill } from 'react-icons/gi';
+// import { RiHeartPulseLine } from 'react-icons/ri';
 
 
 import Ordersummary from './Ordersummary';
@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router-dom';
 
 export const Delivery = () => {
 
-  const navigate =  useNavigate()
+  const navigate = useNavigate()
   return (
     <>
 
@@ -240,7 +240,7 @@ export const Delivery = () => {
 
               <button  >Return</button>
 
-              <button onClick={()=>{navigate("/payment")}}  >Proceed to pay</button>
+              <button onClick={() => { navigate("/payment") }}  >Proceed to pay</button>
 
             </div>
 

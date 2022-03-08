@@ -3,7 +3,7 @@ import style from "./Categories.module.css";
 import Footer from '../About/AboutComponents/Footer';
 
 const MoreIdeas = ({ data }) => {
-  var str = "abcdefghijkl";
+  // var str = "abcdefghijkl";
   return (
     <>
       <div className={style.ideas}>
@@ -12,7 +12,7 @@ const MoreIdeas = ({ data }) => {
         })}
       </div>
 
-      <div style={{position:"relative", top: "110rem"}} ><Footer /> </div>
+      <div style={{ position: "relative", top: "110rem" }} ><Footer /> </div>
     </>
   )
 }

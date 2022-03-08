@@ -1,4 +1,4 @@
-import { style } from '@mui/system';
+// import { style } from '@mui/system';
 import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import LandingPageContext from '../../../components/Pages/LandingPage/ContextLandingPage/ContextLandingPage';
@@ -9,10 +9,11 @@ import { ListCart } from './ListCart';
 
 export const Cartpage = () => {
 
-    const { isLogin, setIsLogin } = useContext(LandingPageContext)
-    const { toCart, setToCart } = React.useContext(Context);
+    const { isLogin } = useContext(LandingPageContext)
+    const { toCart } = React.useContext(Context);
     const [totalCartValue, setTotalCartValue] = React.useState("");
     const navigate = useNavigate();
+    // console.log(toCart)
 
     React.useEffect(() => {
         // const total = toCart.reduce((prev, curr) => (prev.price += curr.price), 0);
@@ -24,7 +25,7 @@ export const Cartpage = () => {
         if (total > 0) {
             total += 599;
         }
-        // console.log(total, toCart);
+        // console.log(total, toCart, totalCartValue);
         setTotalCartValue(total);
     }, [toCart])
     return (
@@ -49,7 +50,7 @@ export const Cartpage = () => {
                             </div>
                             <div style={{ float: 'right', cursor: "pointer", zIndex: "1" }} >
                                 <p className={styles.upper_para2}>All Prices are inclusive of taxes</p>
-                                <button className={styles.order_palce} onClick={() => {if(totalCartValue!==0){isLogin ? navigate("/delivery") : navigate('/login')}}}>Place Order</button>
+                                <button className={styles.order_palce} onClick={() => { if (totalCartValue !== 0) { isLogin ? navigate("/delivery") : navigate('/login') } }}>Place Order</button>
                             </div>
                         </div>
                         <div className={styles.list_div}>

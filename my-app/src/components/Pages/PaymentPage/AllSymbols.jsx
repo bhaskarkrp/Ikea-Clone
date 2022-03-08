@@ -6,16 +6,16 @@ import securetrust from "./securetrust.png"
 import world from "./world.png"
 const AllSymbols = () => {
   return (
-      <>
-    <div className={style.Paysymbols} >
+    <>
+      <div className={style.Paysymbols} >
         <div className={style.symbol}>
-            <div><img  src={verysign}/></div>
-            <div><img  src={veryvisa}/></div>
-            <div><img  src={securetrust}/></div>
+          <div><img src={verysign} alt="Loading" /></div>
+          <div><img src={veryvisa} alt="Loading" /></div>
+          <div><img src={securetrust} alt="Loading" /></div>
         </div>
-        <div className={style.world}><img  src={world}/></div>
-    </div>
-    <div>Your </div>
+        <div className={style.world}><img src={world} alt="Loading" /></div>
+      </div>
+      {/* <div>Your </div> */}
     </>
   )
 }

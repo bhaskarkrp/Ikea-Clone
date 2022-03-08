@@ -1,12 +1,12 @@
 
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import LandingPageContext from "../LandingPage/ContextLandingPage/ContextLandingPage";
 import styles from "./loginput.module.css";
-import React, { useContext, useRef, useState } from "react";
+import React, { useContext, useRef } from "react";
 export const LogInput = () => {
 
 
-  const { isLogin, setIsLogin } = useContext(LandingPageContext)
+  const { setIsLogin } = useContext(LandingPageContext)
   const [alert, setAlert] = React.useState(false);
 
   const logInUserName = useRef()

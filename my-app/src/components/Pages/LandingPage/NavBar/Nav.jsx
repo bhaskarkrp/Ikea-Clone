@@ -11,7 +11,7 @@ import LandingPageContext from "../ContextLandingPage/ContextLandingPage";
 
 export default function Nav() {
 
-  const { open, setOpen } = React.useContext(LandingPageContext)
+  const { setOpen } = React.useContext(LandingPageContext)
 
   const sideMenuOpenHandler = () => {
     setOpen(true)

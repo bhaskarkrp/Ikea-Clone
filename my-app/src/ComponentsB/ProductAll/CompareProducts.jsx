@@ -1,17 +1,17 @@
 import React from 'react';
 import { Context } from '../Context';
 import styles from "./Css/CompareProducts.module.css";
-import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import { Rating } from '@mui/material';
-import { style } from '@mui/system';
+// import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
+// import FavoriteIcon from '@mui/icons-material/Favorite';
+// import { Rating } from '@mui/material';
+// import { style } from '@mui/system';
 import { CompareComponent } from './CompareComponent';
 
 
 export const CompareProducts = () => {
     const { toCompare, setOnHoverActiveContext, onHoverActiveContext } = React.useContext(Context);
-    const [wishlist, setWishlist] = React.useState(false);
-    const [onHoverActive, setOnHoverActive] = React.useState(false);
+    // const [wishlist, setWishlist] = React.useState(false);
+    const [setOnHoverActive] = React.useState(false);
 
     React.useEffect(() => {
         if (onHoverActiveContext) {

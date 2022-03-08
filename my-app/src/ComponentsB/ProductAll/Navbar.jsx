@@ -42,15 +42,18 @@ export const Navbar = () => {
                     </div>
                     <PersonOutlineOutlinedIcon />
                     <ShoppingBagOutlinedIcon onClick={() => navigate("/products/cart")} style={{ cursor: "pointer" }} />
-                    <div className={styles.hamburger2} onClick={() => setOpen(!open)}>
+                    <div className={styles.hamburger2} onClick={() => {
+                        setSideMenuValue("Navbar")
+                        setOpen(!open)
+                    }}>
 
                         <MenuRoundedIcon />
                     </div>
                 </div>
             </div>
-            
+
             <div className={styles.flex_nav_bottom}>
-                <p className={styles.para} onClick={()=>{navigate("/products")}} >Products</p>
+                <p className={styles.para} onClick={() => { navigate("/products") }} >Products</p>
                 <p className={styles.para}>Rooms</p>
                 <p className={styles.para}>New at IKEA</p>
                 <p className={styles.para}>All offers</p>

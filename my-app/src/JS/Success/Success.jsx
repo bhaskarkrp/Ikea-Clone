@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import LandingPageContext from '../../components/Pages/LandingPage/ContextLandingPage/ContextLandingPage';
@@ -18,9 +17,9 @@ const style = {
 };
 
 export default function Success() {
-  const [open, setOpen] = React.useState(false);
+  // const [open, setOpen] = React.useState(false);
   const handleClose = () => setgotSuccess(false);
-  const {gotSuccess,setgotSuccess}  = React.useContext(LandingPageContext)
+  const { gotSuccess, setgotSuccess } = React.useContext(LandingPageContext)
   return (
     <div>
       <Modal

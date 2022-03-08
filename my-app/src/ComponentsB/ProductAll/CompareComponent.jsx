@@ -3,14 +3,14 @@ import styles from "./Css/CompareProducts.module.css";
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { Rating } from '@mui/material';
-import { style } from '@mui/system';
+// import { style } from '@mui/system';
 import { Context } from '../Context';
 import { Alert } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 export const CompareComponent = ({ item }) => {
 
-    const { toCompare, setToCompare, setOnHoverActiveContext, onHoverActiveContext } = React.useContext(Context);
+    const { toCompare, setToCompare, onHoverActiveContext } = React.useContext(Context);
     const [wishlist, setWishlist] = React.useState(false);
     const [onHoverActive, setOnHoverActive] = React.useState(false);
     const navigate = useNavigate();
@@ -23,9 +23,9 @@ export const CompareComponent = ({ item }) => {
         }
     }, [onHoverActiveContext, toCompare])
 
-    const onHoverHandle = () => {
-        setOnHoverActive(!onHoverActive);
-    }
+    // const onHoverHandle = () => {
+    //     setOnHoverActive(!onHoverActive);
+    // }
     const handleWishList = () => {
         setWishlist(!wishlist);
     }

@@ -1,8 +1,8 @@
 import styles from "./signupInput.module.css";
-import React, { useContext, useRef, useState } from "react";
+import React, { useRef } from "react";
 
-import LandingPageContext from "../LandingPage/ContextLandingPage/ContextLandingPage";
-import { Navigate, useNavigate } from "react-router-dom";
+// import LandingPageContext from "../LandingPage/ContextLandingPage/ContextLandingPage";
+import { useNavigate } from "react-router-dom";
 
 export const SignUpInput = () => {
   const navigate = useNavigate()
@@ -35,11 +35,11 @@ export const SignUpInput = () => {
       mobile: mobileref.current.value,
       description: "hello",
     };
-   
+
     postMe(register_data)
       .then((res) => {
         navigate('/login')
-        
+
       })
       .catch((err) => {
         console.log(err);

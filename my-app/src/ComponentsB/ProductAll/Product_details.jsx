@@ -1,6 +1,6 @@
 import React from 'react';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import StarIcon from '@mui/icons-material/Star';
+// import StarIcon from '@mui/icons-material/Star';
 import styles from './Css/Product_details.module.css'
 import { Alert, Rating } from '@mui/material';
 import { Context } from '../Context';
