@@ -1,6 +1,6 @@
 # IKEA
 Ikea.com is an E-commerce website from which user can purchase the items of the brand IKEA.<br/>
-<a href="" target="_blank">Click here for Live demo</a>
+<a href="https://ikea-clone2.vercel.app/" target="_blank">Click here for Live demo</a>
 
 ## Team members:
 <p><b>1. Aakash Dwivedi</b></p>
